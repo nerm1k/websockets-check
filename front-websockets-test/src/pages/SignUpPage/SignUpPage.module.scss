@@ -1,0 +1,31 @@
+.container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .signup {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        &__title {
+            font-size: 36px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        &__input {
+
+            .input__title {
+                margin-bottom: 4px;
+            }
+        }
+
+        &__button {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+    }
+}
